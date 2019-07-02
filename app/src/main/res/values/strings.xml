@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小白资源</string>
+    <string name="hello">Hello world!</string>
+    <string name="app_oneself">个人</string>
+    <string name="app_setting">设置</string>
+    <string name="app_thanks">鸣谢</string>
+    <string name="app_pact">协议</string>
+    <string name="app_function">功能专区</string>
+    <string name="app_start">启动界面</string>
+    <string name="app_floatwindow">浮动窗口</string>
+	<string name="app_feedback">反馈</string>
+    <string name="user_name">JumHuang</string>
+    <string name="really">确认</string>
+	<string name="setting_backgroundchoose">背景色选择</string>
+    <string name="imei">请输入随机码</string>
+    <string name="clearhistory">清除缓存</string>
+	<string name="feedback">问题反馈</string>
+    <string name="contentme">联系开发者</string>
+    <string name="joingroup">加入QQ群</string>
+    <string name="about">关于软件</string>
+    <string name="giteeabout">开源说明</string>
+    <string name="shareapp">分享软件</string>
+    <string name="copych">JumHuang 版权©所有</string>
+    <string name="copyen">Copyright © 2016-2018 JumHuang. All Right Reserved.</string>
+    <string name="user_j">不积硅步，无以至千里。</string>
+    <string name="exit">退出</string>
+    <string name="app_guide">引导页</string>
+    <string name="function_myy520">毛爷爷520</string>
+    <string name="function_player">VIP视频</string>
+    <string name="function_webcode">网页源码</string>
+</resources>

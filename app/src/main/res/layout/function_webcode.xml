@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <RelativeLayout
+		android:background="#ffcccccc" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+        <EditText
+			android:textColor="#ff000000" 
+			android:id="@+id/url" 
+			android:layout_width="300.0dip" 
+			android:layout_height="40.0dip"
+			android:ems="10" />
+		
+        <Button 
+			android:id="@+id/open" 
+			android:layout_width="wrap_content"
+			android:layout_height="40.0dip" 
+			android:layout_marginTop="0.0dip" 
+			android:text="获取" 
+			android:layout_toRightOf="@id/url" 
+			android:layout_alignParentRight="true" />
+		
+    </RelativeLayout>
+	
+    <LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		
+        <ScrollView
+			android:background="@null"
+			android:fadingEdge="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:fillViewport="true">
+			
+            <TextView
+				android:enabled="true" 
+				android:textColor="#ff000000"
+				android:id="@+id/message"
+				android:background="#ffffffff"
+				android:focusable="true"
+				android:longClickable="true"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="代码显示区"
+				android:textIsSelectable="true" />
+			
+        </ScrollView>
+		
+    </LinearLayout>
+	
+</LinearLayout>

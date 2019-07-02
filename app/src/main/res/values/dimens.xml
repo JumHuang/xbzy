@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">20.0sp</dimen>
+    <dimen name="setting_copy_text_size">12.0sp</dimen>
+    <dimen name="tabhost_text_size">14.0sp</dimen>
+    <dimen name="setting_text_size">20.0sp</dimen>
+    <dimen name="proof_button_size">22.0sp</dimen>
+    <dimen name="oneself_username_text_size">18.0sp</dimen>
+    <dimen name="oneself_userj_textsize">14.0sp</dimen>
+    <dimen name="oneself_text_size">20.0sp</dimen>
+</resources>

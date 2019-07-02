@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center_horizontal"
+	android:orientation="vertical" 
+	android:background="@color/white"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <LinearLayout
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="40.0dip">
+		
+        <EditText
+			android:gravity="center_vertical" 
+			android:id="@+id/qiyed"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hint="视频地址"
+			android:layout_weight="28.0" 
+			android:inputType="textUri" />
+		
+        <Button
+			android:textSize="16.0sp" 
+			android:textColor="@color/black" 
+			android:id="@+id/qiybt" 
+			android:layout_width="50.0dip" 
+			android:layout_height="40.0dip" 
+			android:text="播放" 
+			android:layout_weight="1.0" />
+		
+    </LinearLayout>
+	
+    <WebView
+		android:id="@+id/qiyWeb" 
+		android:background="@color/main_bg" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="4.0dip" />
+	
+</LinearLayout>

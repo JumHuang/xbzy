@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:background="#ffffffff" 
+		android:layout_width="fill_parent" 
+		android:layout_height="50.0dip">
+		
+        <ImageView
+			android:padding="3.0dip" 
+			android:layout_width="50.0dip" 
+			android:layout_height="50.0dip"
+			android:src="@drawable/ic_android"
+			android:layout_weight="1.0" />
+		
+        <LinearLayout
+			android:gravity="center_vertical"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent" 
+			android:layout_weight="24.0">
+			
+            <TextView
+				android:textSize="24.0sp"
+				android:textColor="@color/black"
+				android:id="@+id/function_list_tab_name" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:text="名称" />
+			
+        </LinearLayout>
+		
+    </LinearLayout>
+	
+</LinearLayout>

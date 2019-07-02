@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="vertical"
+		android:background="@color/title_bg"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="15.0">
+
+		<TextView
+			android:textSize="@dimen/title_text_size"
+			android:textColor="@color/text_color"
+			android:gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="@string/app_name"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:background="@color/main_bg"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1.0">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<WebView
+				android:id="@+id/xbzy_webview"
+				android:layout_width="fill_parent"
+				android:background="@color/main_bg"
+				android:layout_height="fill_parent"/>
+
+			<com.JumHuang.xbzy.Menu.ExpandableSelector
+				android:id="@+id/round_menu"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentRight="true"
+				android:layout_margin="10dp"/>
+
+		</RelativeLayout>
+		
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bg">#ff11b6f5</color>
+    <color name="main_bg">#ffeeeeee</color>
+    <color name="text_color">#fff0f0f0</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="linear_text">#ffcccccc</color>
+    <color name="copy">#ff999999</color>
+</resources>

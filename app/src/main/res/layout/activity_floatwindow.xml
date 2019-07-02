@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:id="@+id/bahk"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+    <ViewSwitcher
+		android:id="@+id/viewswitch1" 
+		android:persistentDrawingCache="animation"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:inAnimation="@anim/animator_top_in" 
+		android:outAnimation="@anim/animator_top_out">
+		
+        <LinearLayout 
+			android:id="@+id/nextlayout1" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+            <LinearLayout 
+				android:orientation="vertical" 
+				android:background="@drawable/bj" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+				
+                <LinearLayout 
+					android:gravity="top|center" 
+					android:orientation="vertical" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					
+                    <WebView 
+						android:id="@+id/wy" 
+						android:layout_width="fill_parent"
+						android:layout_height="210.0dip" 
+						android:layout_weight="12.0" />
+					
+                    <LinearLayout 
+						android:gravity="bottom|center"
+						android:orientation="horizontal" 
+						android:background="@drawable/bj" 
+						android:layout_width="fill_parent"
+						android:layout_height="20.0dip">
+						
+                        <TextView
+							android:textSize="16.0sp" 
+							android:textColor="#ff000000" 
+							android:id="@+id/ht" 
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="→" 
+							android:layout_weight="1.0" />
+						
+                        <TextView 
+							android:textSize="16.0sp" 
+							android:textColor="#ff000000"
+							android:id="@+id/qj"
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content" 
+							android:text="←" 
+							android:layout_weight="1.0" />
+						
+                        <TextView 
+							android:textSize="16.0sp" 
+							android:textColor="#ff000000" 
+							android:id="@+id/sx"
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content"
+							android:text="↪" 
+							android:layout_weight="1.0" />
+						
+                        <TextView 
+							android:textSize="16.0sp" 
+							android:textColor="#ff000000" 
+							android:id="@+id/fz" 
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content" 
+							android:text="❐"
+							android:layout_weight="1.0" />
+						
+                        <TextView
+							android:textSize="16.0sp"
+							android:textColor="#ff000000" 
+							android:id="@+id/gb"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content" 
+							android:text="×" 
+							android:layout_weight="1.0" />
+						
+                    </LinearLayout>
+					
+                </LinearLayout>
+				
+            </LinearLayout>
+			
+        </LinearLayout>
+		
+    </ViewSwitcher>
+	
+</LinearLayout>

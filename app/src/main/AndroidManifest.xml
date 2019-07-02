@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.JumHuang.xbzy"
+	android:versionCode="4" 
+	android:versionName="1.1.2" >
+
+    <uses-sdk 
+		android:minSdkVersion="14"
+		android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+		android:theme="@style/AppTheme" 
+		android:label="@string/app_name" 
+		android:icon="@mipmap/ic_launcher" 
+		android:allowBackup="true">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+			android:name="com.JumHuang.xbzy.MainActivity"
+			android:label="@string/app_name"
+			android:theme="@style/AppTheme" />
+        <activity 
+			android:name="com.JumHuang.xbzy.Activity.XbzyActivity"
+			android:label="@string/app_name"
+			android:theme="@style/AppTheme"  />
+        <activity
+			android:name="com.JumHuang.xbzy.Activity.FunctionActivity"
+			android:label="@string/app_function"
+			android:theme="@style/AppTheme"  />
+        <activity
+			android:name="com.JumHuang.xbzy.GuideActivity"
+			android:label="@string/app_guide"
+			android:theme="@style/AppTheme"  />
+        <activity 
+			android:name="com.JumHuang.xbzy.Activity.OneselfActivity"
+			android:label="@string/app_oneself"
+			android:theme="@style/AppTheme" />
+        <activity 
+			android:name="com.JumHuang.xbzy.Activity.SettingActivity"
+			android:label="@string/app_setting" 
+			android:theme="@style/AppTheme"  />
+        <activity
+			android:name="com.JumHuang.xbzy.Activity.ThanksActivity"
+			android:label="@string/app_thanks"
+			android:theme="@style/AppTheme"  />
+        <activity
+			android:name="com.JumHuang.xbzy.Function.FunctionMyy520"
+			android:label="@string/function_myy520"
+			android:theme="@style/AppTheme"  />
+        <activity 
+			android:name="com.JumHuang.xbzy.Function.FunctionPlayer"
+			android:label="@string/function_player"
+			android:theme="@style/AppTheme"  />
+        <activity 
+			android:name="com.JumHuang.xbzy.Function.FunctionWebcode"
+			android:label="@string/function_webcode"
+			android:theme="@style/AppTheme"  />
+        <activity 
+			android:name="com.JumHuang.xbzy.Activity.FloatWindowActivity"
+			android:label="@string/app_floatwindow"
+			android:theme="@style/AppTheme" />
+		<activity
+			android:name="com.JumHuang.xbzy.Activity.FeedbackActivity"
+			android:label="@string/app_feedback"
+			android:theme="@style/AppTheme"/>
+		<activity
+			android:name="com.JumHuang.xbzy.Setting.BackgroundChooseActivity"
+			android:label="@string/setting_backgroundchoose"
+			android:theme="@style/AppTheme"/>
+    </application>
+</manifest>

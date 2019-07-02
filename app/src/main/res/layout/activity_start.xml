@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/qdt">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1"
+		android:gravity="top|right">
+
+		<LinearLayout
+			android:layout_height="32dp"
+			android:layout_width="68dp"
+			android:orientation="horizontal"
+			android:layout_marginRight="18dp"
+			android:layout_marginTop="18dp"
+			android:gravity="center"
+			android:background="@drawable/roundbg">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="X秒"
+				android:layout_width="wrap_content"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:id="@+id/start_time_tv"
+				android:textColor="#FFFFFF"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_width="36dp"
+				android:text="跳过"
+				android:textSize="14sp"
+				android:id="@+id/start_time_btn"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_gravity="bottom|center"
+		android:layout_weight="6">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Version: null"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="12dp"
+			android:textSize="12sp"
+			android:id="@+id/start_versiontext"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="JumHuang出品"
+			android:layout_width="wrap_content"
+			android:textSize="14sp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Copyright © 2016-2018 JumHuang All Right Reserved."
+			android:layout_width="wrap_content"
+			android:textSize="12sp"
+			android:textColor="#000000"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+
