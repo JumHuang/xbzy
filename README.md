@@ -11,5 +11,5 @@
 -------
  
 - QQ：[3116075662](mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=3116075662)
-- 微信：hj3116075662
+- 微信：ajumhuang
 - 邮箱：JumHuang@qq.com
